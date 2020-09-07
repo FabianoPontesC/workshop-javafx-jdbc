@@ -66,6 +66,7 @@ public class MainViewController implements Initializable {
 		}
 	}
 
+	// TODO - Remove this method adapting to a Lambda Expression
 	private synchronized void loadView2(String absoluteName) {
 		try {
 			FXMLLoader loader= new FXMLLoader(getClass().getResource(absoluteName));
